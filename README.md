@@ -32,9 +32,9 @@ java main.Keybreaker sign document.txt --alias=myalias
 ```
 Características
 
-    Firma digital de archivos utilizando claves privadas del keystore.
-    Verificación de firmas utilizando claves públicas del keystore.
-    Soporte para especificar archivos de keystore y alias.
+- Firma digital de archivos utilizando claves privadas del keystore.
+- Verificación de firmas utilizando claves públicas del keystore.
+- Soporte para especificar archivos de keystore y alias.
 
 Dependencias
 
@@ -44,9 +44,9 @@ Dependencias
 Configuración
 Parámetros
 
-    --sigfile=<sigFile>: Especifica el archivo de salida para la firma. Si no se proporciona, se generará un archivo con la extensión .md5.
-    --keystore=<keystoreFile>: Especifica el archivo del keystore. El valor por defecto es keystorage.jks.
-    --alias=<alias>: Especifica el alias de la clave en el keystore.
+- sigfile=<sigFile>: Especifica el archivo de salida para la firma. Si no se proporciona, se generará un archivo con la extensión .md5.
+- keystore=<keystoreFile>: Especifica el archivo del keystore. El valor por defecto es keystorage.jks.
+- alias=<alias>: Especifica el alias de la clave en el keystore.
 
 Ejemplos
 Firma de un archivo
