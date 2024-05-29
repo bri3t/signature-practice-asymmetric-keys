@@ -6,18 +6,12 @@ Java keytool signature practice asymmetric keys
 ## Introducción
 FileSigner es una herramienta para firmar y verificar archivos utilizando un almacén de claves (keystore). Este programa permite a los usuarios realizar operaciones de firma digital y verificación de firmas para asegurar la integridad y autenticidad de los archivos.
 
-## Instalación
-Para instalar y ejecutar FileSigner, sigue los siguientes pasos:
 
-1. Asegúrate de tener Java instalado en tu sistema.
-2. Compila los archivos `.java`:
-    ```sh
-    javac -d . Keybreaker.java Logic.java
-    ```
-3. Ejecuta el programa con el comando:
-    ```sh
-    java main.Keybreaker <action> <inputFile> [--sigfile=sigFile] [--keystore=keystoreFile] [--alias=alias]
-    ```
+Ejecuta el programa con el comando:
+
+```sh
+java main.Keybreaker <action> <inputFile> [--sigfile=sigFile] [--keystore=keystoreFile] [--alias=alias]
+```
 
 ## Uso
 ### Comandos
